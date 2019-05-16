@@ -36,7 +36,7 @@
 		 #particles-js{ position:absolute; top: 90px; width: 100%; height: 700px !important; background-color: #fffff; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */
 		 .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
 	</style>
-    
+
     <script>
         $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
@@ -75,22 +75,23 @@
 				<nav id="nav-menu-container">
 					<ul class="nav-menu">
 						<li class=""><a class="active" href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-						<li class="menu-has-children"><a href="#">Pages</a>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+						<li class="menu-has-children"><a href="#work">Portfolio</a>
 							<ul>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="services.html">Service</a></li>
-								<li><a href="portfolio-details.html">Portfolio Details</a></li>
+<!--                                <li><a href="portfolio.html">Projects</a></li>-->
+								<li><a href="profile-details/hackruoneapp-details.html">HackRU OneApp</a></li>
+								<li><a href="profile-details/listenwithme-details.html">ListenWithMe</a></li>
+								<li><a href="profile-details/khajoori-details.html">Khajoori</a></li>
+								<li><a href="profile-details/ruitchy-details.html">RU Itchy</a></li>
+								<li><a href="profile-details/lookup-details.html">Lookup</a></li>
+								<li><a href="profile-details/speaking-sensibly-details.html">Speaking Sensibly</a></li>
+								<li><a href="profile-details/descartes-details.html">Descartes</a></li>
+								 <li><a  href="profile-details/whenrufree-details.html">WhenRUFree</a></li>
+								 <li><a  href="profile-details/swagfari-details.html">Swagfari</a></li>
 							</ul>
 						</li>
-						<li class="menu-has-children"><a href="">Blog</a>
-							<ul>
-								<li><a href="blog-home.html">Blog Home</a></li>
-								<li><a href="blog-single.html">Blog Single</a></li>
-							</ul>
-						</li>
+                        <li><a href="https://qasimabbas.github.io">Blog</a>
 					</ul>
 				</nav>
 			</div>
@@ -112,7 +113,7 @@
 						and
 						<span class="developer">Architect</span>
 					</div>
-					<a href="#about" class="primary-btn" data-text="Who am I?">
+					<a href="#about" class="primary-btn white" data-text="Who am I?">
 						<span>L</span>
 						<span>e</span>
 						<span>a</span>
@@ -120,7 +121,7 @@
 						<span>n</span>
 						<span>!</span>
 					</a>
-                    <a href="#" class="primary-btn" data-text="Connect">
+                    <a href="https://linkedin.com/in/qasim52" class="primary-btn" data-text="Connect">
 						<span>C</span>
 						<span>o</span>
 						<span>n</span>
@@ -179,16 +180,15 @@
 					</div>
 					<div class="mb-50 wow fadeIn" data-wow-duration=".8s">
 						<p>
-							To put it simply, I am an iOS Developer.  I bet you could have figured that out through my title on this page, right?  But how would you know how to define an iOS Developer?  Here is my definition:  an iOS Developer is someone who has a love and understanding of all aspects of technology.  
-                            
-                            <p>There is firstly an understanding of design that influences user interface and experience so users from any and all ages and backgrounds, can have as many intuitive interactions as possible. An iOS developer has an understanding of writing code that not only is efficient enough for programmers to interpret in a very brisk way but enough for a very minuscule piece of hardware to handle by covering all bases of lower level computing from memory management and CPU energy usage, each being a critical aspect by having massive effects on battery if not monitored with the utmost precision.  They should have an understanding of managing and securing data storage and transfer on devices through means of encryption and authentication patterns, while still being able to make transactions lightweight and very fast for users to access information through inventive algorithms and structures.
-                            </p>
+                         I am an iOS Developer in the Greater New York Area with the hopes of building projects that you carry in your pocket.
+                        </p>
+
                         <p>
-                                In addition to all of this,  an iOS Developer sits on the cusp of a rapidly changing environment with new languages, tools, and hardwares delivered on an annual basis.  The only way one can fathom being on top of all of this is to, as with any field, have a love for what they do.
+                            I am currently working on various projects for businesses, nonprofit organizations, medical organizations, and of course some good ole tomfoolery.
+                        </p>
 
-
-						</p>
-						<p>As a famous author once told it, "Yes, I’ve made a great deal of dough from my fiction, but I never set a single word down on paper with the thought of being paid for it … I have written because it fulfilled me. Maybe it paid off the mortgage on the house and got the kids through college, but those things were on the side—I did it for the buzz. I did it for the pure joy of the thing. And if you can do it for the joy, you can do it forever." - Stephen King
+                        <p>
+<!--                            My current arsenal contains Swift and Objective C with, of course, Xcode, Java and a bit of Kotlin with Android Studio,  Sketch for UI Design, MongoDB/MySQL/MSQL/RealmDB/Core Data for my data needs, and AWS Lamba/EC2/Windows IIS for my backend and hosting written with Python, Java, and Swift.-->
 						</p>
 					</div>
 					<a href="#" class="primary-btn white" data-text="More Info">
@@ -216,117 +216,6 @@
 	</section>
 	<!-- End About Area -->
 
-
-	<!-- Start Work Area Area -->
-	<section class="work-area section-gap-top section-gap-bottom-90" id="work">
-		<div class="container">
-			<div class="row d-flex justify-content-between align-items-end mb-80">
-				<div class="col-lg-6">
-					<div class="section-title">
-						<h2>Latest Works</h2>
-						<p>Want to see what I've been up to?</p>
-					</div>
-				</div>
-
-				<div class="col-lg-6">
-					<div class="filters">
-						<ul>
-							<li class="active" data-filter=".all">All Categories</li>
-							<li data-filter=".branding">Branding</li>
-							<li data-filter=".creative">Resources</li>
-							<li data-filter=".web-design">Open Source</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-			<div class="filters-content">
-				<div class="row grid">
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp" data-wow-duration="2s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w1.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>HackRU One App</h4>
-								<div class="cat">Event Based Application</div>
-							</div>
-							<a class="overlay" href="profile-details/hackruoneapp-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all web-design branding wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w2.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>ListenWithMe</h4>
-								<div class="cat">Assurance and Affinity AudioSharing Application</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding web-design wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/khajoori.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>Khajoori</h4>
-								<div class="cat">Community Resource Reference Application</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all open-source wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/ruitchy.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>RUItchy</h4>
-								<div class="cat">Dermititis Analysis Application</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all creative wow fadeInUp" data-wow-duration="2s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/Look-Up.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>Look Up</h4>
-								<div class="cat">Identity Classifier</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
-						<div class="relative">
-							<div class="thumb">
-								<div class="overlay overlay-bg"></div>
-								<img class="image img-fluid" src="img/work/w5.jpg" alt="">
-							</div>
-							<div class="middle">
-								<h4>2D Vinyl Design</h4>
-								<div class="cat">Client Project</div>
-							</div>
-							<a class="overlay" href="portfolio-details.html"></a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Work Area Area -->
-
-
 	<!-- Start Job History Area Area -->
 	<section class="job-area section-gap-top section-gap-bottom-90">
 		<div class="container">
@@ -339,23 +228,48 @@
 					</div>
 				</div>
 			</div>
-        
+
 <!--
             <div class="section-title">
 				<h3>Relevant History</h3>
             </div>
 -->
-            
+
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="single-job">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
-								<h4>iOS Developer (Contractor)</h4>
+								<h4>Lead iOS Developer</h4>
+								<h4>(Contractor)</h4>
+								<p>Verizon, New Jersey</p>
+							</div>
+							<div class="top-right">
+								<a href="https://linkedin.com/in/qasim52" class="primary-btn" data-text="Feb '19 to Present">
+									<span>F</span><span>e</span><span>b</span>
+									<span>'</span><span>1</span><span>9</span>
+									<span>t</span><span>o</span>
+									<span>P</span><span>r</span><span>e</span><span>s</span><span>e</span><span>n</span><span>t</span>
+								</a>
+							</div>
+						</div>
+						<div class="bottom-sec wow fadeIn" data-wow-duration="2s">
+							Developing and managing B2B business critical applications on iOS and Android for support services and applications with 1M requests per day as well as handling UAT and Production releases.
+						</div>
+					</div>
+				</div>
+
+
+				<div class="col-lg-6">
+					<div class="single-job">
+						<div class="top-sec d-flex justify-content-between">
+							<div class="top-left">
+								<h4>Lead iOS Developer</h4>
+								<h4>(Contractor)</h4>
 								<p>United Software Consultants, New Jersey</p>
 							</div>
 							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Sep '18 to Present">
+								<a href="https://linkedin.com/in/qasim52" class="primary-btn" data-text="Sep '18 to Present">
 									<span>S</span><span>e</span><span>p</span>
 									<span>'</span><span>1</span><span>8</span>
 									<span>t</span><span>o</span>
@@ -377,7 +291,7 @@
 								<p>Rutgers Univeristy-New Brunswick, NJ</p>
 							</div>
 							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Sep '16 to Dec '18">
+								<a href="https://linkedin.com/in/qasim52" class="primary-btn" data-text="Sep '16 to Dec '18">
 									<span>S</span><span>e</span><span>p</span>
 									<span>'</span><span>1</span><span>6</span>
 									<span>t</span><span>o</span>
@@ -400,7 +314,7 @@
 								<p>Warren, New Jersey</p>
 							</div>
 							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Feb '18 to May '18">
+								<a href="https://linkedin.com/in/qasim52" class="primary-btn" data-text="Feb '18 to May '18">
 									<span>F</span><span>e</span><span>b</span>
 									<span>'</span><span>1</span><span>8</span>
 									<span>t</span><span>o</span>
@@ -422,7 +336,7 @@
 								<p>Rutgers Graduate School of Education, NJ</p>
 							</div>
 							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="Sep '17 to May '18">
+								<a href="https://linkedin.com/in/qasim52" class="primary-btn" data-text="Sep '17 to May '18">
 									<span>S</span><span>e</span><span>p</span>
 									<span>'</span><span>1</span><span>7</span>
 									<span>t</span><span>o</span>
@@ -435,16 +349,16 @@
 						</div>
 					</div>
 				</div>
-                
+
                 <div class="col-lg-6">
 					<div class="single-job">
 						<div class="top-sec d-flex justify-content-between">
 							<div class="top-left">
-								<h4>Mobile App Developer</h4>
+								<h4>Lead Mobile App Developer</h4>
 								<p>iconectiv, New Jersey</p>
 							</div>
 							<div class="top-right">
-								<a href="#" class="primary-btn" data-text="May '16 to Jun '17">
+								<a href="https://linkedin.com/in/qasim52" class="primary-btn" data-text="May '16 to Jun '17">
 									<span>M</span><span>a</span><span>y</span>
 									<span>'</span><span>1</span><span>6</span>
 									<span>t</span><span>o</span>
@@ -458,33 +372,189 @@
 					</div>
 				</div>
 			</div>
-            
+
 <!--
             <div class="section-title">
                 <h3>Volunteer History</h3>
-                
+
             </div>
-            
+
             <div class="section-title">
                 <h3>Additional History</h3>
             </div>
-            
-            
-            
+
+
+
             <div class="section-title">
                 <h3>Volunteer History</h3>
             </div>
 -->
-            
-            
+
+
 		</div>
-        
-        
+
+
 	</section>
-    
-    
-    
+
+
+
 	<!-- End Job Historyt Area Area -->
+
+
+	<!-- Start Work Area Area -->
+	<section class="work-area section-gap-top section-gap-bottom-90" id="work">
+		<div class="container">
+			<div class="row d-flex justify-content-between align-items-end mb-80">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2>Latest Works</h2>
+						<p>Want to see some of what I've been up to?</p>
+					</div>
+				</div>
+
+				<div class="col-lg-6">
+					<div class="filters">
+						<ul>
+							<li class="active" data-filter=".all">All Categories</li>
+							<li data-filter=".branding">App Store</li>
+							<li data-filter=".open-source">Open Source</li>
+							<li data-filter=".community">Community</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="filters-content">
+				<div class="row grid">
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding open-source wow fadeInUp" data-wow-duration="2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w1.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>HackRU One App</h4>
+								<div class="cat">Event Based Application</div>
+							</div>
+							<a class="overlay" href="profile-details/hackruoneapp-details.html"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all open-source wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/w2.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>ListenWithMe</h4>
+								<div class="cat">Assurance and Affinity AudioSharing Application</div>
+							</div>
+							<a class="overlay" href="profile-details/listenwithme-details.html"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all branding community wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.4s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/khajoori.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>Khajoori</h4>
+								<div class="cat">Community Resource Reference Application</div>
+							</div>
+							<a class="overlay" href="profile-details/khajoori-details.html"></a>
+						</div>
+					</div>
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all open-source wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.6s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/ruitchy.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>RUItchy</h4>
+								<div class="cat">Dermititis Analysis Application</div>
+							</div>
+							<a class="overlay" href="profile-details/portfolio-details.html"></a>
+						</div>
+					</div>
+
+                    <div class="single-work col-lg-4 col-md-6 col-sm-12 all open-source wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/Look-Up.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>Look Up</h4>
+								<div class="cat">Identity Classifier Application</div>
+							</div>
+							<a class="overlay" href="profile-details/lookup-details.html"></a>
+						</div>
+					</div>
+
+					<div class="single-work col-lg-4 col-md-6 col-sm-12 all open-source wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/Simply-Sensible.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>Speaking Sensibly</h4>
+								<div class="cat">Communication Assistance Application</div>
+							</div>
+							<a class="overlay" href="profile-details/speaking-sensibly-details.html"></a>
+						</div>
+					</div>
+
+
+                    <div class="single-work col-lg-4 col-md-6 col-sm-12 all open-source wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/descarte.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>Descartes</h4>
+								<div class="cat">Handwritten Code Compilation Application</div>
+							</div>
+							<a class="overlay" href="profile-details/descartes-details.html"></a>
+						</div>
+					</div>
+                    <div class="single-work col-lg-4 col-md-6 col-sm-12 all open-source wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/whenrufree.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>WhenRUFree</h4>
+								<div class="cat">Schedule and Relation Enhancer Application</div>
+							</div>
+							<a class="overlay" href="profile-details/whenrufree-details.html"></a>
+						</div>
+					</div>
+                     <div class="single-work col-lg-4 col-md-6 col-sm-12 all open-source wow fadeInUp" data-wow-duration="2s" data-wow-delay="0.2s">
+						<div class="relative">
+							<div class="thumb">
+								<div class="overlay overlay-bg"></div>
+								<img class="image img-fluid" src="img/work/Swagfari.jpg" alt="">
+							</div>
+							<div class="middle">
+								<h4>Swagfari</h4>
+								<div class="cat">AR Jurrasic Safari Game Application</div>
+							</div>
+							<a class="overlay" href="profile-details/swagfari-details.html"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Work Area Area -->
+
+
+
 
 
 	<!-- Start Service Area -->
@@ -503,7 +573,7 @@
 					<div class="single-service wow fadeInUp" data-wow-duration="1s">
 						<span class="lnr lnr-screen"></span>
 						<h4>
-							<span>UI</span> Design
+							<span>UI/UX</span> Design
 						</h4>
 						<p>Design using Sketch and Photoshop as well as conforming to Apple Human User Interface Guidlines</p>
 					</div>
@@ -516,22 +586,25 @@
 						<p>Xcode IDE, Swiftlint, Jazzy, and of course various Design Patterns</p>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
-						<span class="lnr lnr-database"></span>
-						<h4><span>Database</span> Testing
+
+                <div class="col-lg-3 col-md-6">
+					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
+						<span class="lnr lnr-chart-bars"></span>
+						<h4><span>Quality</span> Assurance
 						</h4>
 						<p>Instruments and XCUnit Tests</p>
 					</div>
 				</div>
+
 				<div class="col-lg-3 col-md-6">
-					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
-						<span class="lnr lnr-chart-bars"></span>
-						<h4><span>Qualitiy</span> Assurance
+					<div class="single-service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+						<span class="lnr lnr-database"></span>
+                        <h4><span>Database</span>
 						</h4>
-						<p>Core Data and Realm</p>
+						<p>Core Data, Realm, and SQLite</p>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>
@@ -608,7 +681,7 @@
 
 
 	<!-- Start Contact Area -->
-	<section class="contact-area section-gap">
+	<section id="contact" class="contact-area section-gap">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -627,19 +700,19 @@
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<div class="contact-box">
-						<h4>me@qasimabbas.com</h4>
+						<h4>qasimabbas52@gmail.com</h4>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4">
 					<div class="contact-box">
-						<h4>qasimabbas.com</h4>
+						<h4>Greater New York Area</h4>
 					</div>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<a href="#" class="primary-btn mt-50" data-text="Connect">
+					<a href="https://linkedin.com/in/qasim52" class="primary-btn mt-50" data-text="Connect">
 						<span>C</span>
 						<span>o</span>
 						<span>n</span>
@@ -668,10 +741,10 @@
 							<h4>Follow Me</h4>
 						</div>
 						<div class="footer-social">
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-dribbble"></i></a>
-							<a href="#"><i class="fa fa-behance"></i></a>
+							<a href="https://linkedin.com/in/qasim52"><i class="fa fa-linkedin"></i></a>
+							<a href="https://github.com/QasimAbbas"><i class="fa fa-github"></i></a>
+							<!-- <a href="#"><i class="fa fa-dribbble"></i></a>
+							<a href="#"><i class="fa fa-behance"></i></a> -->
 						</div>
 					</div>
 				</div>
@@ -679,7 +752,7 @@
 			<div class="row footer-bottom justify-content-center">
 				<p class="col-lg-8 col-sm-12 footer-text">
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://SimpleSnippet.io" target="_blank">SimpleSnippet</a> and <a href="https://colorlib.com" target="_blank">Colorlib</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			</div>
 		</div>
